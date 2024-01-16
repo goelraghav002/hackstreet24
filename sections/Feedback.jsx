@@ -7,7 +7,7 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 function Feedback() {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="sponser">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
