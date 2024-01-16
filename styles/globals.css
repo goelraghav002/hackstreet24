@@ -17,7 +17,7 @@
     hsl(284deg 70% 73%) 26%,
     hsl(257deg 70% 86%) 39%,
     hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
+    hsl(215, 76%, 36%) 61%,
     hsl(221deg 73% 70%) 74%,
     hsl(220deg 76% 51%) 100%
   );
@@ -69,7 +69,7 @@
   width: 304px;
   height: 100vh;
   left: 30%;
-  top: 10%;
+  top: 100%;
 
   background: rgba(45, 72, 152, 0.75);
   filter: blur(200px);

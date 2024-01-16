@@ -15,12 +15,12 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[30px] mt-[40px]">
+        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[20px] mt-[20px]">
           <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading} id="head">
             The Incognito
           </motion.h1>
           <motion.div
-            variants={textVariant(1.2)}
+            variants={textVariant(1.1)}
             className="flex flex-row justify-center items-center"
           >
             <h1 className={styles.heroHeading}>Realm</h1>
@@ -30,14 +30,14 @@ function Hero() {
         </div>
 
         <motion.div
-          variants={slideIn('right', 'tween', 0.2, 1)}
-          className="relative w-full md:-mt-[20px] -mt-[12px]"
+          variants={slideIn('right', 'tween', 0.1, 0.8)}
+          className="relative w-full md:-mt-[-20px] -mt-[-20px]"
         >
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
           <img
-            src="/cover.jpg"
+            src="/gif1.gif"
             alt="cover"
-            className="w-full sm:h-[500px] h-[350px] lg:h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+            className="w-full sm:h-[500px] h-[500px] lg:h-[500px] object-cover rounded-tl-[140px] z-10 relative"
           />
 
           <a href="#explore">

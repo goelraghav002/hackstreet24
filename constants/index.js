@@ -49,12 +49,12 @@ export const newFeatures2 = [
     subtitle:
         '2nd Runner-up project of the hackathon will win some awesome prizes.',
   },
-  {
-    imgUrl: '/headset.svg',
-    title: 'ALL GIRLS TEAM',
-    subtitle:
-        'Will be awarded to the project of hackathon which was made by an all girls team.',
-  },
+  // {
+  //   imgUrl: '/headset.svg',
+  //   title: 'ALL GIRLS TEAM',
+  //   subtitle:
+  //       'Will be awarded to the project of hackathon which was made by an all girls team.',
+  // },
 ];
 
 export const insights = [
