@@ -17,23 +17,20 @@ function GetStarted() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
       >
-        <motion.div
+        {/* <motion.div
           variants={planetVariants('left')}
           className={`flex-1 ${styles.flexCenter}`}
-        >
-          <img
-            src="/image20.png"
-            alt="image20"
-            className="w-[97%] h-[97%] object-contain"
-          />
-        </motion.div>
+        > */}
+        <img
+          src="/timeline.jpeg"
+          alt="timeline"
+          className="w-[97%] h-[50%] object-contain"
+        />
+        {/* </motion.div> */}
         <motion.div
           variants={fadeIn('left', 'tween', 0.2, 1)}
           className="flex-[0.75] flex justify-center flex-col"
-        >
-          
-          
-        </motion.div>
+         />
       </motion.div>
     </section>
   );
