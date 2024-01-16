@@ -17,7 +17,7 @@ function Feedback() {
       >
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}
-          className="flex-[0.5] lg:max-w-1500 flex justify-end flex-col gradient-05 sm:p-99 p-56 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
+          className="flex-[0.5] lg:max-w-1700 flex justify-end flex-col gradient-05 sm:p-99 p-56 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
         >
           <div className="feedback-gradient" />
           <div>
