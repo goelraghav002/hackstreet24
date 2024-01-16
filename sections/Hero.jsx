@@ -7,7 +7,7 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 function Hero() {
   return (
-    <section className={`${styles.yPaddings} sm:pl-6 pl-6`}>
+    <section className={`${styles.yPaddings} sm:pl-6 pl-6`} id="home">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -15,8 +15,8 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div className="flex justify-center items-center flex-col relative z-10">
-          <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[30px] mt-[40px]">
+          <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading} id="head">
             The Incognito
           </motion.h1>
           <motion.div
