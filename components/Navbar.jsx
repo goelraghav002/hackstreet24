@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import "./Navbar.css";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <div className="nav">
       <div className="heading">
@@ -27,5 +27,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;
