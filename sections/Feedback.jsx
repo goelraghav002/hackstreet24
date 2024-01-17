@@ -21,17 +21,17 @@ function Feedback() {
         >
           <div className="feedback-gradient" />
           <div>
-            <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
+            <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white mt-[-200px] text-center">
               Partners
             </h4>
-            <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
+            <p className="mt-[-5px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white text-center">
               IEEE | Hackstreet 2.0
             </p>
-          </div>
-
-          <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
+            <p className="mt-[-5px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white text-center">
             “Special Thanks to”
           </p>
+          </div>
+
 
           <motion.div
             variants={zoomIn(0.4, 1)}
@@ -53,7 +53,7 @@ function Feedback() {
             <img
               src="/polygon_spon.png"
               alt="gold2"
-              className="w-[100px] h-[100px] object-contain"
+              className="w-[125px] h-[125px] object-contain"
             />
 
             <img
@@ -62,49 +62,54 @@ function Feedback() {
               className="w-[100px] h-[100px] object-contain"
             />
 
-            <img
-              src="/beeceptor_spon.png"
-              alt="api"
-              className="w-[100px] h-[100px] object-contain"
-            />
+            
 
           </motion.div>
           <motion.div
             variants={zoomIn(0.4, 1)}
-            className="lg:block hidden absolute -center-[5%] bottom-[1%]"
+            className="lg:block hidden absolute -center-[20%] bottom-[1%]"
           >
+
+            <img
+              src="/beeceptor_spon.png"
+              alt="api"
+              className="w-[125px] h-[125px] object-contain"
+            />
 
 
             <img
               src="/interviewbuddy_spon.png"
               alt="interview"
-              className="w-[100px] h-[100px] object-contain"
+              className="w-[125px] h-[125px] object-contain"
             />
 
             <img
               src="/interviewcake_spon.png"
               alt="interview1"
-              className="w-[100px] h-[100px] object-contain"
+              className="w-[125px] h-[125px] object-contain"
             />
-
+          </motion.div>
+          <motion.div
+            variants={zoomIn(0.4, 1)}
+            className="lg:block hidden absolute -right-[-30%] bottom-[1%]"
+          >
             <img
               src="/givemycertificate_spon.png"
               alt="interview1"
-              className="w-[100px] h-[100px] object-contain"
+              className="w-[125px] h-[125px] object-contain"
+            />
+
+            <img
+              src="/wolfram_spon.png"
+              alt="spon1"
+              className="w-[150px] h-[150px] object-contain"
             />
           </motion.div>
 
           <motion.div
             variants={zoomIn(0.4, 1)}
-            className="lg:block hidden absolute -right-[-5%] top-[1%]"
+            className="lg:block hidden absolute -right-[-10%] top-[1%]"
           >
-
-            <img
-              src="/wolfram_spon.png"
-              alt="spon1"
-              className="w-[100px] h-[100px] object-contain"
-            />
-
             <img
               src="/echo3D_spon.png"
               alt="spon2"
@@ -116,8 +121,6 @@ function Feedback() {
               alt="spon3"
               className="w-[100px] h-[100px] object-contain"
             />
-
-
             <img
               src="/axure_spon.png"
               alt="spon4"
