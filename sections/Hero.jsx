@@ -15,7 +15,7 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]">
+        <div className="flex justify-center items-center flex-col  z-10 lg:mt-10 mt-70">
           <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading} id="head">
             The Incognito
           </motion.h1>
