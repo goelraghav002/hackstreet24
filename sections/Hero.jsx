@@ -15,7 +15,7 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[20px] mt-[20px]">
+        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]">
           <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading} id="head">
             The Incognito
           </motion.h1>
@@ -35,7 +35,7 @@ function Hero() {
         >
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
           <img
-            src="/gif1.gif"
+            src="/gif3.gif"
             alt="cover"
             className="w-full sm:h-[500px] h-[500px] lg:h-[500px] object-cover rounded-tl-[140px] z-10 relative"
           />
