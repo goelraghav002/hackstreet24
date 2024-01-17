@@ -18,9 +18,7 @@ function Navbar() {
         <Link href="#sponser">SPONSERS</Link>
         <button type="button" className="devfolio">
           <span>
-            <a href="https://youtu.be/dQw4w9WgXcQ?si=LEaggX_fLM_s3I1W">
-              DEVFOLIO
-            </a>
+              <a href="https://youtu.be/dQw4w9WgXcQ?si=LEaggX_fLM_s3I1W">DEVFOLIO</a>
           </span>
         </button>
       </div>
