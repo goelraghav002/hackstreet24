@@ -32,6 +32,11 @@ export const startingFeatures = [
   'No need to beat around the bush, just stay on the gas and have fun',
 ];
 export const newFeatures = [
+  
+  
+  
+];
+export const newFeatures2 = [
   {
     imgUrl: '/vrpano.svg',
     title: 'WINNER',
@@ -44,8 +49,6 @@ export const newFeatures = [
     subtitle:
         '1st Runner-up prize will be given to the second best project of the hackathon.',
   },
-];
-export const newFeatures2 = [
   {
     imgUrl: '/vrpano.svg',
     title: '2nd RUNNER UP',
