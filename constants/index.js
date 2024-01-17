@@ -1,33 +1,36 @@
 export const exploreWorlds = [
   {
     id: 'Murder-1',
-    imgUrl: '/murder1.png',
-    title: 'Way to hacking',
+    imgUrl: '/edu.jpg',
+    title: 'Education',
   },
   {
     id: 'Murder-2',
-    imgUrl: '/murder2.png',
-    title: 'The Night stalker',
+    imgUrl: '/webimage.jpg',
+    title: 'Web 3.0/Blockchain',
   },
   {
     id: 'murder-3',
-    imgUrl: '/murder3.png',
-    title: 'Myterious Witch',
+    imgUrl: '/health.jpg',
+    title: 'Healthcare',
   },
   {
     id: 'murder-4',
-    imgUrl: '/murder4.png',
-    title: 'The Death End',
+    imgUrl: '/envir.jpg',
+    title: 'Environment',
   },
   {
     id: 'Murder-5',
-    imgUrl: '/murder5.png',
-    title: 'The unknown',
+    imgUrl: '/openin.jpg',
+    title: 'Open Innovation',
   },
 ];
 
-
-
+export const startingFeatures = [
+  'Find a world that suits you and you want to enter',
+  'Enter the world by reading basmalah to be safe',
+  'No need to beat around the bush, just stay on the gas and have fun',
+];
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
