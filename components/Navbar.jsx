@@ -35,7 +35,7 @@ function Navbar() {
         <button type="button" className="devfolio-btn">
           <span>
             <a href="https://youtu.be/dQw4w9WgXcQ?si=LEaggX_fLM_s3I1W">
-              DEVFOLIO
+              DEVFOLIOo
             </a>
           </span>
         </button>
