@@ -22,7 +22,7 @@ function Feedback() {
           <div className="feedback-gradient" />
           <div>
             <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">
-              Sponsors and Partners
+              Partners
             </h4>
             <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white">
               IEEE | Hackstreet 2.0
@@ -37,11 +37,99 @@ function Feedback() {
             variants={zoomIn(0.4, 1)}
             className="lg:block hidden absolute -left-[-1%] top-[1%]"
           >
+     
             <img
               src="/logo_hack.png"
               alt="stamp"
               className="w-[125px] h-[125px] object-contain"
             />
+
+            <img
+              src="/devfolio_spon.webp"
+              alt="gold1"
+              className="w-[125px] h-[125px] object-contain"
+            />
+
+            <img
+              src="/polygon_spon.png"
+              alt="gold2"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+            <img
+              src="/replit_spon.png"
+              alt="silver"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+            <img
+              src="/beeceptor_spon.png"
+              alt="api"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+          </motion.div>
+          <motion.div
+            variants={zoomIn(0.4, 1)}
+            className="lg:block hidden absolute -center-[5%] bottom-[1%]"
+          >
+
+
+            <img
+              src="/interviewbuddy_spon.png"
+              alt="interview"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+            <img
+              src="/interviewcake_spon.png"
+              alt="interview1"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+            <img
+              src="/givemycertificate_spon.png"
+              alt="interview1"
+              className="w-[100px] h-[100px] object-contain"
+            />
+          </motion.div>
+
+          <motion.div
+            variants={zoomIn(0.4, 1)}
+            className="lg:block hidden absolute -right-[-5%] top-[1%]"
+          >
+
+            <img
+              src="/wolfram_spon.png"
+              alt="spon1"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+            <img
+              src="/echo3D_spon.png"
+              alt="spon2"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+            <img
+              src="/xyz_spon.png"
+              alt="spon3"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+
+            <img
+              src="/axure_spon.png"
+              alt="spon4"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
+            <img
+              src="/rosenfeld_spon.png"
+              alt="spon5"
+              className="w-[100px] h-[100px] object-contain"
+            />
+
           </motion.div>
         </motion.div>
       </motion.div>
