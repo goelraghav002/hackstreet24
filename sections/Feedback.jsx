@@ -41,7 +41,7 @@ function Feedback() {
             <img
               src="/logo_hack.png"
               alt="stamp"
-              className="w-[125px] h-[125px] object-contain"
+              className="w-[124px] h-[124px] object-contain"
             />
 
             <img
