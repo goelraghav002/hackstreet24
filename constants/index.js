@@ -1,27 +1,27 @@
 export const exploreWorlds = [
   {
     id: 'Murder-1',
-    imgUrl: '/murder1.png',
+    imgUrl: '/edu.jpg',
     title: 'Education',
   },
   {
     id: 'Murder-2',
-    imgUrl: '/murder2.png',
+    imgUrl: '/webimage.jpg',
     title: 'Web 3.0/Blockchain',
   },
   {
     id: 'murder-3',
-    imgUrl: '/murder3.png',
+    imgUrl: '/health.jpg',
     title: 'Healthcare',
   },
   {
     id: 'murder-4',
-    imgUrl: '/murder4.png',
+    imgUrl: '/envir.jpg',
     title: 'Environment',
   },
   {
     id: 'Murder-5',
-    imgUrl: '/murder5.png',
+    imgUrl: '/openin.jpg',
     title: 'Open Innovation',
   },
 ];
