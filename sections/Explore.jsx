@@ -26,7 +26,7 @@ function Explore() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Tech Stacks" textStyles="text-center" />
+        
         <TitleText
           title={(
             <>
