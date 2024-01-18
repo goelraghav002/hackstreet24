@@ -22,8 +22,8 @@ function WhatsNew() {
           className="flex-[0.75] flex justify-center flex-col"
         >
           <div className="w-[90vw]">
-          <TypingText title="| Prizes" textStyles="text-center"/>
-          <TitleText title="Prize Section🏆" textStyles="text-center"/>
+          
+          <TitleText title="Rewards🏆" textStyles="text-center"/>
           </div>
           
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
