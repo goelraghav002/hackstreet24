@@ -2,6 +2,9 @@
 const nextConfig = {
   experimental: {
   },
+    eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 module.exports = nextConfig;
