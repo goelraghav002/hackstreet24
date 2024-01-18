@@ -1,6 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import React from 'react';
+
 
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
@@ -21,7 +23,12 @@ function ExploreCard({ id, imgUrl, title, index, active, handleClick }) {
       />
       {active !== id ? (
         <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
-          {title}
+          {title.split(' ').map((word, index) => (
+          <React.Fragment key={index}>
+          {word}
+          {index < title.split(' ').length - 1 && <br/>}
+          </React.Fragment>
+      ))}
         </h3>
       ) : (
         <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
@@ -11,6 +11,12 @@ import { exploreWorlds } from '../constants';
 function Explore() {
   const [active, setActive] = useState('world-2');
 
+  useEffect(() => {
+    // Set the state to the first element's ID by default
+    if (exploreWorlds.length > 0) {
+      setActive(exploreWorlds[0].id);
+    }
+  }, []);
   return (
     <section className={`${styles.paddings}`} id="explore">
       <motion.div
