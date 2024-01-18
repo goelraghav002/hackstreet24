@@ -9,134 +9,148 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 function Feedback() {
   return (
-    <section className={`${styles.paddings} relative z-10 w-[100vw]`} id="sponser">
+    <><div className="partner-section">
+      <TitleText title="Our Partners" textStyles="text-center" className="partner-heading" />
+      <div className="sponsors">
+        <img className="sponsorsImages" id="dev" src="/devfolio_spon.webp" alt="" />
+        <img className="sponsorsImages" id="cake" src="\interviewcakeImg.png" alt="" />
+        <img className="sponsorsImages" id="xyz" src="\xyzImg.png" alt="" />
+        <img className="sponsorsImages" id="certi" src="\givemycertificate_spon.png" alt="" />
+        <img className="sponsorsImages" id="polygon" src="/polygon_spon.png" alt="" />
+        <img className="sponsorsImages" id="buddy" src="\InterviewBuddyImg.png" alt="" />
+        <img className="sponsorsImages" id="bee" src="/BeeceptorImg.png" alt="" />
+        <img className="sponsorsImages" id="axure" src="\axureImg.svg" alt="" />
+        <img className="sponsorsImages" id="echo3d" src="\echo3DImg.png" alt="" />
+        <img className="sponsorsImages" id="replit" src="/ReplitImg-.png" alt="" />
+        <img className="sponsorsImages" id="alpha" src="\WolframAlphaImg.png" alt="" />
+        <img className="sponsorsImages" src="\rosenfeldImg.png" alt="" />
+      </div>
+
+      </div><section className={`${styles.paddings} relative z-10 w-[100vw]`} id="sponser">
       <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6 `}
-      >
-        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6 `}
+        >
+          <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}
           className="flex-[1] lg:min-w-[100%] flex justify-end flex-col gradient-05 sm:p-99 p-56 relative"
         >
           <div className="feedback-gradient" />
           <div>
-            <h4 className="font-bold block sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white mt-[-200px] w-[100%]  text-center">
+              <h4 className="font-bold block sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white mt-[-200px] w-[100%]  text-center">
               Our Partners
-            </h4>
-            <p className="mt-[-5px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white text-center">
+              </h4>
+              <p className="mt-[-5px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white text-center">
               IEEE | Hackstreet 2.0
-            </p>
-            <p className="mt-[-5px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white text-center">
-            “Special Thanks to”
-          </p>
-          </div>
-
+              </p>
+              <p className="mt-[-5px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white text-center">
+              “Special Thanks to”
+              </p>
+            </div>
 
           <motion.div
-            variants={zoomIn(0.4, 1)}
-            className="block absolute -left-[-1%] bottom-[1%]"
-          >
-            <img
+              variants={zoomIn(0.4, 1)}
+              className="block absolute -left-[-1%] bottom-[1%]"
+            >
+              <img
               src="/devfolio_spon.webp"
               alt="gold1"
               className="w-[150px] h-[150px] object-contain"
             />
 
-            <img
+              <img
               src="/polygon_spon.png"
               alt="gold2"
               className="w-[150px] h-[150px] object-contain"
             />
 
-            <img
+              <img
               src="/replit_spon.png"
               alt="silver"
               className="w-[150px] h-[150px] object-contain"
             />
-          </motion.div>
+            </motion.div>
 
           <motion.div
-            variants={zoomIn(0.4, 1)}
-            className="lg:block  absolute -center-[20%] bottom-[1%]"
-          >
+              variants={zoomIn(0.4, 1)}
+              className="lg:block  absolute -center-[20%] bottom-[1%]"
+            >
 
-            <img
+              <img
               src="/beeceptor_spon.png"
               alt="api"
               className="w-[150px] h-[150px] object-contain"
             />
 
-
-            <img
+              <img
               src="/interviewbuddy_spon.png"
               alt="interview"
               className="w-[150px] h-[150px] object-contain"
             />
 
-          </motion.div>
+            </motion.div>
           <motion.div
-            variants={zoomIn(0.4, 1)}
-            className="lg:block  absolute -right-[-50%] bottom-[1%]"
-          >
-            
-            <img
+              variants={zoomIn(0.4, 1)}
+              className="lg:block  absolute -right-[-50%] bottom-[1%]"
+            >
+
+              <img
               src="/interviewcake_spon.png"
               alt="interview1"
               className="w-[150px] h-[150px] object-contain"
             />
-            <img
+              <img
               src="/wolfram_spon.png"
               alt="spon1"
               className="w-[200px] h-[200px] object-contain"
             />
-          </motion.div>
+            </motion.div>
           <motion.div
-            variants={zoomIn(0.4, 1)}
-            className="lg:block  absolute -right-[-25%] bottom-[1%]"
-          >
-            <img
+              variants={zoomIn(0.4, 1)}
+              className="lg:block  absolute -right-[-25%] bottom-[1%]"
+            >
+              <img
               src="/echo3D_spon.png"
               alt="spon2"
               className="w-[150px] h-[150px] object-contain"
             />
-            <img
+              <img
               src="/givemycertificate_spon.png"
               alt="interview1"
               className="w-[200px] h-[200px] object-contain"
             />
-          </motion.div>
-          
+            </motion.div>
 
           <motion.div
-            variants={zoomIn(0.4, 1)}
-            className="lg:block  absolute -right-[-1%] bottom-[1%]"
-          >
-            
+              variants={zoomIn(0.4, 1)}
+              className="lg:block  absolute -right-[-1%] bottom-[1%]"
+            >
 
-            <img
+              <img
               src="/xyz_spon.png"
               alt="spon3"
               className="w-[150px] h-[150px] object-contain"
             />
-            <img
+              <img
               src="/axure_spon.png"
               alt="spon4"
               className="w-[150px] h-[150px] object-contain"
             />
 
-            <img
+              <img
               src="/rosenfeld_spon.png"
               alt="spon5"
               className="w-[150px] h-[150px] object-contain"
             />
 
-          </motion.div>
+            </motion.div>
         </motion.div>
-      </motion.div>
-    </section>
+        </motion.div>
+          </section>
+    </>
   );
 }
 
