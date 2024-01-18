@@ -16,6 +16,7 @@ function Page() {
   return (
     <div className="bg-primary-black overflow-hidden bg_pic">
       <Navbar />
+      <div className="glassmorphism"/>
       <Hero />
       <div className="relative">
         <About />
@@ -23,9 +24,11 @@ function Page() {
         <Explore />
       </div>
       <div className="relative">
+        <div className="prizeGradient"/>
         <GetStarted />
         <div className="gradient-04" />
         <WhatsNew />
+        <div className="gradient-10" />
       </div>
       <World />
       <div className="relative">
