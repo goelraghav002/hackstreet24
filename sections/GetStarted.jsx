@@ -1,11 +1,12 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-
-import styles from '../styles';
-import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
-import { StartSteps, TitleText, TypingText } from '../components';
+import { motion } from "framer-motion";
+import "./timeline.css";
+import styles from "../styles";
+import { staggerContainer } from "../utils/motion";
+import { TitleText } from "../components";
 //import { startingFeatures } from '../constants';
+import { fadeIn } from "../utils/motion";
 
 function GetStarted() {
   return (
@@ -15,22 +16,92 @@ function GetStarted() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+        className={`${styles.innerWidth} flex lg:flex-col flex-col gap-8`}
       >
-        {/* <motion.div
-          variants={planetVariants('left')}
-          className={`flex-1 ${styles.flexCenter}`}
-        > */}
-        <img
-          src="/timeline.jpeg"
-          alt="timeline"
-          className="w-[97%] h-[50%] object-contain"
-        />
-        {/* </motion.div> */}
+        <h1 className="heading2">《 TIMELINE 》</h1>
+      </motion.div>
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        variants={fadeIn("down", "spring", 0.2, 1.5)}
+      >
+      <div className="timeline">
         <motion.div
-          variants={fadeIn('left', 'tween', 0.2, 1)}
-          className="flex-[0.75] flex justify-center flex-col"
-         />
+          initial="hidden"
+          whileInView="show"
+          variants={fadeIn("right", "spring", 0.8, 1.5)}
+        >
+          <div className="container left">
+            <img src="/knife.jpg" />
+            <div className="text-box">
+              <h2 className="heading1">REGISTRATIONS</h2>
+              <small>29TH JANUARY, 2023</small>
+              <p>11:00 AM onwards</p>
+              <span className="left-arrow"></span>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={fadeIn("left", "spring", 0.9, 1.5)}
+        >
+          <div className="container right">
+            <img src="/knife.jpg" />
+            <div className="text-box">
+              <h2 className="heading1">HACKING PERIOD STARTS</h2>
+              <small>3RD FEBRUARY, 2023</small>
+              <p>11:00 AM onwards</p>
+              <span className="right-arrow"></span>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={fadeIn("right", "spring", 1, 1.5)}
+        >
+          <div className="container left">
+            <img src="/magnify.jpg" />
+            <div className="text-box">
+              <h2 className="heading1">MID EVALUATION</h2>
+              <small>3RD FEBRUARY, 2023</small>
+              <p>11:00 AM onwards</p>
+              <span className="left-arrow"></span>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={fadeIn("left", "spring", 1.1, 1.5)}
+        >
+          <div className="container right">
+            <img src="/knife.jpg" />
+            <div className="text-box">
+              <h2 className="heading1">HACKING PERIOD ENDS</h2>
+              <small>4TH FEBRUARY, 2023</small>
+              <p>11:00 AM onwards</p>
+              <span className="right-arrow"></span>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="show"
+          variants={fadeIn("right", "spring", 1.2, 1.5)}
+        >
+          <div className="container left">
+            <img src="/magnify.jpg" />
+            <div className="text-box">
+              <h2 className="heading1">FINAL EVALUATION</h2>
+              <small>4TH FEBRUARY, 2023</small>
+              <p>2PM onwards</p>
+              <span className="left-arrow"></span>
+            </div>
+          </div>
+        </motion.div>
+      </div>
       </motion.div>
     </section>
   );
