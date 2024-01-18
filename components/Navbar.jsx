@@ -7,7 +7,7 @@ import './Navbar.css';
 
 function Navbar() {
   const [status, setStatus] = React.useState(false);
-  const handleClick = () => {
+  const handleNavClick = () => {
     setStatus(!status);
   }
   
@@ -30,12 +30,12 @@ function Navbar() {
           </span>
         </button>
       </div>
-      <button type="button" onClick={handleClick} className="menuButton">
+      <button type="button" onClick={handleNavClick} className="menuButton">
         <img id="menuImg" src="/menuBtn.png" />
       </button>
 
       <div style={{ display: status ? 'block' : 'none' }} className="NavBar-description flex flex-col">
-        <button type="button" onClick={handleClick}className='crossImg'><img src="/whiteCross.png"/></button>
+        <button type="button" onClick={handleNavClick}className='crossImg'><img src="/whiteCross.png"/></button>
 
         <Link className="navParts" href="/">HOME</Link><br/>
         <Link className="navParts" href="#about">ABOUT</Link><br/>
