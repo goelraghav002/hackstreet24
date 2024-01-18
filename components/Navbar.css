@@ -21,7 +21,7 @@
 .heading{
     margin-left: 2vmin;
     min-width: 40vw;
-    font-size: 2em;
+    font-size: 1.7em;
     animation: slideRight 0.95s ease-out;
 }
 
@@ -74,6 +74,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    /* padding: 4px; */
     font-weight: bold;
     font-size:2.3vmin;
     background-color: rgb(57, 112, 250);
@@ -92,7 +93,6 @@
     }
     .heading{
         margin-left:1vmin;
-        font-size: 1em;
     }
     .menuButton {
         display: block;
@@ -117,6 +117,7 @@
         background-image: linear-gradient(to right, #434343 0%, rgb(29, 29, 29) 100%);
         z-index: 9999;
         font-size: 1.9em;
+        line-height: 3em;
         animation: grow 0.95s ease-in-out;
     }
 
