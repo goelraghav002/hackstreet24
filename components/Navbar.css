@@ -9,8 +9,8 @@
 
 .heading{
     margin-left: 2vmin;
-    width: 40vmin;
-    font-size: 1.7em;
+    min-width: 40vw;
+    font-size: 2em;
 
 }
 
@@ -19,9 +19,6 @@
     display: none;
 }
 
-.NavBar-description{
-    display: none;
-}
 .nav{
     display: flex;
     flex-direction: row;
@@ -54,12 +51,9 @@
     border:0.1em solid rgb(7, 10, 48);
 }
 @media (max-width: 850px) {
-    .nav {
-        font-size:2.2vmin;
-    }
-    .NavBar-desc{
-        width:75%;
-        margin-left:4%;
+    .NavBar-desc {
+        margin-left: 2%;
+        display: none;
     }
     .devfolio{
         height:8vmin;
@@ -68,44 +62,60 @@
     }
     .heading{
         margin-left:1vmin;
-        font-size: 2.3vmin;
+        font-size: 1em;
     }
-  }
-  @media (max-width: 500px) {
-    .nav {
-        font-size:2.3vmin;
-    }
-    .NavBar-desc{
-        width:75%;
-        margin-left:2%;
-        display: none;
-    }
-    .menuButton{
+    .menuButton {
         display: block;
     }
-    .NavBar-description{
-        display: block;
-        width: 60vmin;
+
+    .NavBar-description br{
+        line-height:30px;
+    }
+    .NavBar-description {
         position: fixed;
+        height: 100vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 200;
+        width: 60vmin;
         top: 0px;
         right: 0px;
-        border: 1px solid white;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        box-shadow: -3px 0px 9px rgb(185, 185, 185);
+        border-radius: 14px 0 0 14px;
         padding-top: 2%;
+        padding-left: 1%;
         color: aliceblue;
-        height: 100vh;
-        background-color: blueviolet;
+        background-image: linear-gradient(to right, #434343 0%, rgb(29, 29, 29) 100%);
         z-index: 9999;
-        gap: 2em;
-        font-size: 3em;
-        /* transition: ; */
+        font-size: 1.9em;
+        animation: grow 0.95s ease-in-out;
     }
-    .devfolio-btn{
-        width: 35vmin;
+
+    .navParts {
+        margin: 20px;
+    }
+
+    @keyframes grow {
+        from {
+            transform: translate(100%, 00%);
+        }
+
+        to {
+            transform: translate(0%, 0%);
+        }
+    }
+
+    .crossImg {
+        width: 29px;
+        height: 29px;
+        top: 15px;
+        right: 20px;
+        position: absolute;
+    }
+
+    .devfolio-btn {
+        width: 25vmin;
         height: 9vmin;
-        margin: auto 0;
+        margin: 18px 14px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -113,12 +123,13 @@
         align-items: center;
         font-weight: bold;
         font-size: 3vmin;
-        background-color: rgb(57, 112, 250);
+        /* background-color: rgb(57, 112, 250); */
+        background-image: linear-gradient(to right, #161718, #565d62, #000000);
+        box-shadow: 2px 6px 8px 0 rgba(23, 23, 24, 0.75);
         border-radius: 6vmin;
-        border: 0.1em solid rgb(7, 10, 48);
     }
+  }
 
-}
 @media (max-width: 1100px) {
     .nav {
         font-size:2.2vmin;
@@ -134,7 +145,7 @@
     }
     .heading{
         margin-left:1vmin;
-        font-size: 2.3vmin;
+        font-size: 2.7em;
     }
   }
 
