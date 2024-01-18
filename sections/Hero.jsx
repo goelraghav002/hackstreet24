@@ -16,7 +16,11 @@ function Hero() {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]">
-          <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading} id="head">
+          <motion.h1
+            variants={textVariant(1.1)}
+            className={styles.heroHeading}
+            id="head"
+          >
             The Incognito
           </motion.h1>
           <motion.div
@@ -30,7 +34,7 @@ function Hero() {
         </div>
 
         <motion.div
-          variants={slideIn('right', 'tween', 0.1, 0.8)}
+          variants={slideIn('right', 'tween', 0.1, 1.5)}
           className="relative w-full md:-mt-[-20px] -mt-[-20px]"
         >
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
