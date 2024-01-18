@@ -21,8 +21,11 @@ function WhatsNew() {
           variants={fadeIn('left', 'tween', 0.2, 1)}
           className="flex-[0.75] flex justify-center flex-col"
         >
-          <TypingText title="| Prizes" />
-          <TitleText title={<>Prize Section🏆</>} />
+          <div className="w-[90vw]">
+          <TypingText title="| Prizes" textStyles="text-center"/>
+          <TitleText title="Prize Section🏆" textStyles="text-center"/>
+          </div>
+          
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />
