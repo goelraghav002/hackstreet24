@@ -5,13 +5,34 @@
     color:aliceblue;
     gap: 1.1em;
     align-items: center; 
+    animation: slideLeft 0.95s ease-out;
+}
+@keyframes slideLeft {
+    from {
+        transform: translate(100%, 0);
+    }
+
+    to {
+        trnasform: translate(0, 0);
+    }
+
 }
 
 .heading{
     margin-left: 2vmin;
     min-width: 40vw;
-    font-size: 2em;
+    font-size: 1.7em;
+    animation: slideRight 0.95s ease-out;
+}
 
+@keyframes slideRight {
+    from{
+        transform: translate(-100%, 0);
+    }
+    to{
+        trnasform: translate(0, 0);
+    }
+    
 }
 
 .menuButton{
@@ -24,7 +45,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height:10vmin;
+    height: 13vmin;
     font-size:2.5vmin;
     width: 100vw;
     background-color: #00000094;
@@ -34,6 +55,16 @@
     overflow: hidden;
     font-weight: bold;
     z-index:1000;
+    animation: fall 0.65s ease-out;
+}
+@keyframes fall {
+    from{
+        transform: translate(0, -100%);
+    }
+    to{
+        trnasform: translate(0, 0);
+    }
+    
 }
 .devfolio{
     width: 15vmin;
@@ -43,6 +74,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    /* padding: 4px; */
     font-weight: bold;
     font-size:2.3vmin;
     background-color: rgb(57, 112, 250);
@@ -61,7 +93,6 @@
     }
     .heading{
         margin-left:1vmin;
-        font-size: 1em;
     }
     .menuButton {
         display: block;
@@ -86,6 +117,7 @@
         background-image: linear-gradient(to right, #434343 0%, rgb(29, 29, 29) 100%);
         z-index: 9999;
         font-size: 1.9em;
+        line-height: 3em;
         animation: grow 0.95s ease-in-out;
     }
 
@@ -95,7 +127,7 @@
 
     @keyframes grow {
         from {
-            transform: translate(100%, 00%);
+            transform: translate(100%, 0%);
         }
 
         to {
@@ -122,10 +154,9 @@
         align-items: center;
         font-weight: bold;
         font-size: 3vmin;
-        /* background-color: rgb(57, 112, 250); */
-        background-image: linear-gradient(to right, #161718, #565d62, #000000);
-        box-shadow: 2px 6px 8px 0 rgba(23, 23, 24, 0.75);
+        background-color: rgb(57, 112, 250);
         border-radius: 6vmin;
+        border: 0.1em solid rgb(7, 10, 48);
     }
   }
 
