@@ -11,3 +11,31 @@
 #gmail:hover{
     font-size:2vmin;
 }
+
+@media only screen and (max-width: 767px) {
+    .flex-wrap {
+      flex-direction: column; 
+    }
+  
+    .social-btn {
+      margin-top: 10px; 
+      
+    }
+    .fix-class{
+        flex-direction: row;
+    }
+    .resp{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        
+    }
+    .contact{
+        font-size:20px;
+        margin-left:-75px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+  }
+  
