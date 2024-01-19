@@ -34,7 +34,7 @@ function Footer() {
 
         <div className="flex flex-col">
           <div className="mb-[50px] h-[2px] bg-white opacity-10" />
-          <div className="flex items-center justify-between flex-wrap gap-4">
+          <div className="flex items-center justify-between flex-wrap gap-4 resp">
             <h4 className="font-extrabold text-[24px] text-white">
               HACKSTREET 2.0
             </h4>
@@ -53,7 +53,7 @@ function Footer() {
                 <p>India</p>
               </div>
             </div>
-            <div className="font-bold text-[18px] text-white opacity-50">
+            <div className="font-bold text-[18px] text-white opacity-50 contact">
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
                 <p>Aryan Gupta:- +91 9116457772</p>
