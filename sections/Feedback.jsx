@@ -9,7 +9,7 @@ import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 function Feedback() {
   return (
-    <div className='partner-section'>
+    <div id="sponser" className='partner-section'>
       <TitleText title="Our Partners" textStyles="text-center" className="partner-heading"/>
       <div className='sponsors'>
         <img className="sponsorsImages" id="dev" src="/devfolio_spon.webp" alt="" />
