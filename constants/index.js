@@ -38,19 +38,19 @@ export const newFeatures = [
 ];
 export const newFeatures2 = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/trophy.svg',
     title: 'WINNER',
     subtitle:
         'Prize will be given to a project that outstands all other submissions.',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/trophy.svg',
     title: '1st RUNNER UP',
     subtitle:
         '1st Runner-up prize will be given to the second best project of the hackathon.',
   },
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/trophy.svg',
     title: '2nd RUNNER UP',
     subtitle:
         '2nd Runner-up project of the hackathon will win some awesome prizes.',
