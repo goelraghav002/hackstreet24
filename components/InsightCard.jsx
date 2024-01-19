@@ -19,10 +19,10 @@ function InsightCard({ imgUrl, title, subtitle, index }) {
       <div className="w-full flex items-center">
         <div className="flex-1 md:ml-54 mx-auto flex flex-col max-w-[90%]">
        
-          <h4 className="font-normal flex justify-center lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal flex  lg:text-[42px] text-[26px] text-white">
             {title}
           </h4>
-          <p className="mt-[16px] flex justify-center font-normal lg:text-[20px] text-[14px] text-secondary-white">
+          <p className="mt-[16px] flex  font-normal lg:text-[20px] text-[14px] text-secondary-white">
             {subtitle}
           </p>
         </div>
