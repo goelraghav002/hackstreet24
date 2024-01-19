@@ -64,8 +64,8 @@ function Footer() {
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <MdEmail />
-                <a href="mailto:ieeesbjiit@gmail.com" id="gmail">
-                  ieeesbjiit@gmail.com
+                <a href="mailto:ieeesbjiitsb@gmail.com" id="gmail">
+                  ieeesbjiitsb@gmail.com
                 </a>
               </div>
             </div>
@@ -86,7 +86,7 @@ function Footer() {
                     </a>
                   </button>
                 ))}
-              </div>  
+              </div>
             </div>
           </div>
         </div>
