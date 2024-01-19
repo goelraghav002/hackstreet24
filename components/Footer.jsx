@@ -34,12 +34,33 @@ function Footer() {
             <h4 className="font-extrabold text-[24px] text-white">
               HACKSTREET 2.0
             </h4>
-            <p className="font-bold text-[18px] text-white opacity-50">
+            {/* <p className="font-bold text-[18px] text-white opacity-50">
               Contact Us:{' '}
               <a href="mailto:ieeesbjiit@gmail.com" id="gmail">
                 ieeesbjiit@gmail.com
               </a>
-            </p>
+            </p> */}
+            <div className='font-bold text-[18px] text-white opacity-50"'>
+              <p>XENITH 2024</p>
+              <p>Jaypee Institute Of Information Technology</p>
+              <p> Sector-62, Noida </p>
+              <p>India</p>
+            </div>
+            <div className="font-bold text-[18px] text-white opacity-50">
+              <div>
+                {/* <FaPhoneAlt /> */}
+                <p>Aryan Gupta:- +91 9116457772</p>
+              </div>
+              <div>
+                {/* <FaPhoneAlt /> */}
+                <p>Ansh Mishra:- +91 9506424755</p>
+              </div>
+              <div>
+                {/* <MdEmail /> */}
+                <p>Email - ieeesbjiitdb@gmail.com</p>
+              </div>
+            </div>
+
             <div className="flex gap-4">
               {socials.map((social) => (
                 // eslint-disable-next-line react/button-has-type
