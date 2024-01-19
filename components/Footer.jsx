@@ -44,7 +44,7 @@ function Footer() {
                 ieeesbjiit@gmail.com
               </a>
             </p> */}
-            <div className="font-bold text-[18px] text-white opacity-50 flex flex-row">
+            <div className="font-bold text-[100%] text-white opacity-50 flex flex-row">
               <IoLocationSharp className="text-3xl" />
               <div>
                 <p>XENITH 2024</p>
@@ -53,19 +53,20 @@ function Footer() {
                 <p>India</p>
               </div>
             </div>
-            <div className="font-bold text-[18px] text-white opacity-50 contact">
+            
+            <div className="font-bold text-[120%]  text-white opacity-50 contact">
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
-                <p>Aryan Gupta:- +91 9116457772</p>
+                <p>Aryan Gupta:- +91-9116457772</p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
-                <p>Ansh Mishra:- +91 9506424755</p>
+                <p>Ansh Mishra:- +91-9506424755</p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <MdEmail />
                 <a href="mailto:ieeesbjiitsb@gmail.com" id="gmail">
-                  ieeesbjiitsb@gmail.com
+                  ieeesbjiitdb@gmail.com
                 </a>
               </div>
             </div>
