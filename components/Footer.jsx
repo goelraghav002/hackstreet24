@@ -1,6 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
+// eslint-disable-next-line no-unused-vars
+import { FaPhoneAlt, FaLinkedin, FaSquareFacebook, FaGithubSquare, FaInstagramSquare, FaYoutubeSquare } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import { IoLocationSharp } from 'react-icons/io5';
 import { socials } from '../constants';
 import './Footer.css';
 
@@ -40,41 +44,49 @@ function Footer() {
                 ieeesbjiit@gmail.com
               </a>
             </p> */}
-            <div className='font-bold text-[18px] text-white opacity-50"'>
-              <p>XENITH 2024</p>
-              <p>Jaypee Institute Of Information Technology</p>
-              <p> Sector-62, Noida </p>
-              <p>India</p>
+            <div className="font-bold text-[18px] text-white opacity-50 flex flex-row">
+              <IoLocationSharp className="text-3xl" />
+              <div>
+                <p>XENITH 2024</p>
+                <p>Jaypee Institute Of Information Technology</p>
+                <p> Sector-62, Noida </p>
+                <p>India</p>
+              </div>
             </div>
             <div className="font-bold text-[18px] text-white opacity-50">
-              <div>
-                {/* <FaPhoneAlt /> */}
+              <div className="flex flex-row gap-3 items-center">
+                <FaPhoneAlt />
                 <p>Aryan Gupta:- +91 9116457772</p>
               </div>
-              <div>
-                {/* <FaPhoneAlt /> */}
+              <div className="flex flex-row gap-3 items-center">
+                <FaPhoneAlt />
                 <p>Ansh Mishra:- +91 9506424755</p>
               </div>
-              <div>
-                {/* <MdEmail /> */}
-                <p>Email - ieeesbjiitdb@gmail.com</p>
+              <div className="flex flex-row gap-3 items-center">
+                <MdEmail />
+                <a href="mailto:ieeesbjiit@gmail.com" id="gmail">
+                  ieeesbjiit@gmail.com
+                </a>
               </div>
             </div>
 
-            <div className="flex gap-4">
-              {socials.map((social) => (
+            <div className="flex flex-col font-bold text-[24px] text-white gap-4">
+              <p>Find Us Here:</p>
+              <div className="flex gap-4">
+                {socials.map((social) => (
                 // eslint-disable-next-line react/button-has-type
-                <button className="social-btn">
-                  <a href={social.href} target="_main">
-                    <img
-                      key={social.name}
-                      src={social.url}
-                      alt={social.name}
-                      className="w-[24px] h-[24px] object-contain cursor-pointer"
-                    />
-                  </a>
-                </button>
-              ))}
+                  <button className="social-btn">
+                    <a href={social.href} target="_main">
+                      <img
+                        key={social.name}
+                        src={social.url}
+                        alt={social.name}
+                        className="w-[24px] h-[24px] object-contain cursor-pointer"
+                      />
+                    </a>
+                  </button>
+                ))}
+              </div>  
             </div>
           </div>
         </div>
