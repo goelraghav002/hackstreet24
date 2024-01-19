@@ -86,6 +86,71 @@
 @media screen and (max-width: 900px) {
     .sponsors{
         margin-top: 3%;
-        height: 60vh;
+        height: 70vh;
+        width: 100%;
     }
+    .partner-section{
+        margin-bottom: 60px;
+    }
+        .sponsorsImages{
+            width: 30%;
+            /* height: 20% !important; */
+        }
+    
+        #bee {
+            width: 39%;
+            height: 13%;
+        }
+    
+        #dev {
+            width: 30%;
+            height: 20%;
+        }
+    
+        #axure {
+            height: 6%;
+        }
+    
+        #echo3d {
+            width: 29%;
+            margin-top: 25px;
+        }
+    
+        #alpha {
+            height: 34%;
+            width: 45%;
+            margin: 0;
+        }
+    
+        #xyz {
+            height: 8%;
+            width: 17%;
+        }
+    
+        #certi {
+            width: 48%;
+            height: 13%;
+        }
+    
+        #replit {
+            height: 9%;
+            margin-top: 30px;
+        }
+    
+        #buddy {
+            width: 37%;
+        }
+    
+        #cake {
+            width: 40%;
+        }
+    
+        #polygon {
+            height: 29%;
+            width: 35%;
+        }
+        #rosen{
+            margin: 0;
+            width: 45%;
+        }
 }

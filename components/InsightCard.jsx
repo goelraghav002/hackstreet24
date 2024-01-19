@@ -13,16 +13,16 @@ function InsightCard({ imgUrl, title, subtitle, index }) {
         src={imgUrl}
         alt="image36.jpeg"
         //className=" md:ml-15 md:w-[80px] w-full h-[80px] rounded-[32px] object-cover"
-        className = "md:ml-64 md:w-[150px] w-full h-[100px] md:h-[150px] rounded-[32px] object-cover"
+        className = "md:ml-64 md:w-[150px] w-[50px] h-[50px] md:h-[150px] rounded-[32px] object-cover"
       />
      
       <div className="w-full flex items-center">
-        <div className="flex-1 md:ml-54 flex flex-col max-w-[80%]">
+        <div className="flex-1 md:ml-54 mx-auto flex flex-col max-w-[90%]">
        
-          <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal flex justify-center lg:text-[42px] text-[26px] text-white">
             {title}
           </h4>
-          <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
+          <p className="mt-[16px] flex justify-center font-normal lg:text-[20px] text-[14px] text-secondary-white">
             {subtitle}
           </p>
         </div>

@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TypingText } from '../components';
+import { InsightCard, TitleText, TypingText } from '../components';
+
 
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
@@ -17,7 +18,7 @@ function About() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
-        <TypingText title="| About HackStreet 2.0" textStyles="text-center  text-2xl md:text-4xl" />
+        <TitleText title="About HackStreet 2.0" textStyles="text-center" className="my-5" />
 
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}

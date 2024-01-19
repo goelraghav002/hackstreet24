@@ -23,7 +23,7 @@ function Feedback() {
         <img className="sponsorsImages" id="echo3d" src="\echo3DImg.png" alt="" />
         <img className="sponsorsImages" id="replit" src="/ReplitImg-.png" alt="" />
         <img className="sponsorsImages" id="alpha" src="\WolframAlphaImg.png" alt="" />
-        <img className="sponsorsImages" src="\rosenfeldImg.png" alt="" />
+        <img className="sponsorsImages" id="rosen" src="\rosenfeldImg.png" alt="" />
       </div>
 
     </div>
