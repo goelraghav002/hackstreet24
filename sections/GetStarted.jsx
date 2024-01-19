@@ -18,7 +18,7 @@ function GetStarted() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} flex lg:flex-col flex-col gap-8`}
       >
-        <h1 className="heading2">《 TIMELINE 》</h1>
+        <h1 className="heading2"> TIMELINE </h1>
       </motion.div>
       <motion.div
         initial="hidden"
