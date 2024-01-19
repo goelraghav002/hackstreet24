@@ -32,7 +32,7 @@ function GetStarted() {
           variants={fadeIn("right", "spring", 0.8, 1.5)}
         >
           <div className="container left">
-            <img src="/knife.jpg" />
+            <img src="/stopwatch.jpeg" />
             <div className="text-box">
               <h2 className="heading1">REGISTRATIONS</h2>
               <small>29TH JANUARY, 2023</small>
@@ -47,7 +47,7 @@ function GetStarted() {
           variants={fadeIn("left", "spring", 0.9, 1.5)}
         >
           <div className="container right">
-            <img src="/knife.jpg" />
+            <img src="/two.jpg" />
             <div className="text-box">
               <h2 className="heading1">HACKING PERIOD STARTS</h2>
               <small>3RD FEBRUARY, 2023</small>
@@ -62,7 +62,7 @@ function GetStarted() {
           variants={fadeIn("right", "spring", 1, 1.5)}
         >
           <div className="container left">
-            <img src="/magnify.jpg" />
+            <img src="/stopwatch.jpeg" />
             <div className="text-box">
               <h2 className="heading1">MID EVALUATION</h2>
               <small>3RD FEBRUARY, 2023</small>
@@ -77,7 +77,7 @@ function GetStarted() {
           variants={fadeIn("left", "spring", 1.1, 1.5)}
         >
           <div className="container right">
-            <img src="/knife.jpg" />
+            <img src="/two.jpg" />
             <div className="text-box">
               <h2 className="heading1">HACKING PERIOD ENDS</h2>
               <small>4TH FEBRUARY, 2023</small>
@@ -92,7 +92,7 @@ function GetStarted() {
           variants={fadeIn("right", "spring", 1.2, 1.5)}
         >
           <div className="container left">
-            <img src="/magnify.jpg" />
+            <img src="/stopwatch.jpeg" />
             <div className="text-box">
               <h2 className="heading1">FINAL EVALUATION</h2>
               <small>4TH FEBRUARY, 2023</small>
