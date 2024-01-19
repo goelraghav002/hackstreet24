@@ -57,9 +57,14 @@
 .text-box{
 color:aliceblue;
 text-align: center;
-background-color: rgb(113, 2, 29);
+/* background-color: rgb(113, 2, 29); */
+background: rgba( 0, 71, 255, 0.15 );
+/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13px );
+-webkit-backdrop-filter: blur( 13px ); */
+border-radius: 10px;
 padding:10px 15px;
-border:1px solid rgb(227, 72, 72);
+border:1px solid rgb(152, 166, 195);
 }
 
 .heading1{
@@ -110,7 +115,7 @@ small{
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left:15px solid rgb(227, 72, 72);
+    border-left:15px solid rgba(228, 228, 239, 0.867);
     right:36px;
 }
 .right-arrow{
@@ -121,7 +126,7 @@ small{
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right:15px solid rgb(227, 72, 72);
+    border-right:15px solid rgba(228, 228, 239, 0.867);
     left:36px;
 }
 .heading2{
@@ -164,7 +169,7 @@ small{
         z-index: 1;
         border-top: 10px solid transparent;
         border-bottom: 15px solid transparent;
-        border-right:15px solid rgb(227, 72, 72);
+        border-right:15px solid rgba(228, 228, 239, 0.867);
         left:-10px;
         border-left: 0;
     }
@@ -176,7 +181,7 @@ small{
         z-index: 1;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-right:15px solid rgb(227, 72, 72);
+        border-right:15px solid rgba(228, 228, 239, 0.867);
         left:-10px;
     }
 }
@@ -216,7 +221,7 @@ small{
         z-index: 1;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-right:15px solid rgb(227, 72, 72);
+        border-right:15px solid rgba(228, 228, 239, 0.867);
         left:-10px;
         border-left: 0;
     }
@@ -228,7 +233,7 @@ small{
         z-index: 1;
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
-        border-right:15px solid rgb(227, 72, 72);
+        border-right:15px solid rgba(228, 228, 239, 0.867);
         left:-10px;
     }
     .heading2{
