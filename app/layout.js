@@ -9,6 +9,8 @@ function RootLayout({ children }) {
           rel="stylesheet"
           href="https://stijndv.com/fonts/Eudoxus-Sans.css"
         />
+        <link rel="icon" href="/hackstreetlogo.ico" />
+        <title>Hackstreet 2.0</title>
       </head>
       <body>{children}</body>
     </html>
