@@ -99,7 +99,7 @@ export const socials = [
   {
     name: 'telegram',
     url: '/telegram.webp',
-    href: 'https://t.me/joinchat/JkKFGhgrkuLYiwiSToT_Jg',
+    href: 'https://discord.gg/zKFdRQ4z9D',
   },
   {
     name: 'linkedin',
