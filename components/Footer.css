@@ -8,9 +8,6 @@
     /* font-size:3vmin; */
     color: white;
 }
-#gmail:hover{
-    font-size:2vmin;
-}
 
 @media only screen and (max-width: 767px) {
     .flex-wrap {
