@@ -18,6 +18,10 @@
 
 }
 
+.navParts{
+    cursor: pointer;
+}
+
 .heading{
     margin-left: 2vmin;
     min-width: 40vw;
