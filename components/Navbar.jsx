@@ -2,7 +2,7 @@
 
 // import Link from 'next/link';
 
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll';
 
 import React, { useEffect } from 'react';
 import './Navbar.css';
@@ -27,14 +27,16 @@ function Navbar() {
   return (
     <div className="nav">
       <div className="heading">
-        <h2>HACKSTREET 2.0</h2>
+        <h2>
+          <Link className="navParts" to="home">HACKSTREET 2.0</Link>
+        </h2>
       </div>
       <div className="NavBar-desc">
-        <Link to="home">HOME</Link>
-        <Link to="about">ABOUT</Link>
-        <Link to="prize">PRIZE</Link>
-        <Link to="faq">FAQs</Link>
-        <Link to="sponser">PARTNERS</Link>
+        <Link className="navParts" to="home">HOME</Link>
+        <Link className="navParts" to="about">ABOUT</Link>
+        <Link className="navParts" to="prize">PRIZE</Link>
+        <Link className="navParts" to="faq">FAQs</Link>
+        <Link className="navParts" to="sponser">PARTNERS</Link>
         <div
           className="apply-button"
           data-hackathon-slug="hackstreet24"
