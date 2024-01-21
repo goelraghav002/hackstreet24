@@ -29,7 +29,7 @@ function Feedback() {
             Silver Partner
           </h4>
           <div className="sponsors">
-            <img className="sponsorsImages" id="replit" src="/ReplitImg-.png" alt="REPLIT LOGO" />
+            <img className="sponsorsImages" id="replit" src="/replit.jpg" alt="REPLIT LOGO" />
           </div>
         </div>
 
