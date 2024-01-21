@@ -12,7 +12,7 @@ function Feedback() {
     <div className="partner-section" id="sponser">
 
       <TitleText title="Our Partners" textStyles="text-center" className="partner-heading" />
-      
+
       <div>
         <div className="sponsors-section">
           <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
@@ -41,7 +41,7 @@ function Feedback() {
         <img className="sponsorsImages" id="bee" src="/BeeceptorImg.png" alt="" />
       </div>
         </div>
-        
+
         <div>
           <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
             Interview Partners
@@ -72,19 +72,6 @@ function Feedback() {
       </div>
         </div>
 
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
       </div>
 
     </div>
