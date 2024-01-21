@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Navbar.css';
 
 function Navbar() {
@@ -10,6 +10,17 @@ function Navbar() {
   const handleNavClick = () => {
     setStatus(!status);
   };
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <div className="nav">
@@ -22,13 +33,12 @@ function Navbar() {
         <Link href="#prize">PRIZE</Link>
         <Link href="#faq">FAQs</Link>
         <Link href="#sponser">PARTNERS</Link>
-        <button type="button" className="devfolio">
-          <span>
-            <a href="https://youtu.be/dQw4w9WgXcQ?si=LEaggX_fLM_s3I1W">
-              DEVFOLIO
-            </a>
-          </span>
-        </button>
+        <div
+          className="apply-button"
+          data-hackathon-slug="hackstreet24"
+          data-button-theme="light"
+          style={{ height: '44px', width: '312px' }}
+        />
       </div>
       <button type="button" onClick={handleNavClick} className="menuButton">
         <img id="menuImg" src="/menuBtn.png" />
@@ -62,13 +72,12 @@ function Navbar() {
           PARTNERS
         </Link>
         <br />
-        <button type="button" className="devfolio-btn">
-          <span>
-            <a href="https://youtu.be/dQw4w9WgXcQ?si=LEaggX_fLM_s3I1W">
-              DEVFOLIO
-            </a>
-          </span>
-        </button>
+        <div
+          className="apply-button"
+          data-hackathon-slug="hackstreet24"
+          data-button-theme="light"
+          style={{ height: '44px', width: '312px' }}
+        />
       </div>
     </div>
   );

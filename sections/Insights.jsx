@@ -17,7 +17,6 @@ function Insights() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        
         <TitleText title="Frequently Asked Questions" textStyles="text-center" />
         <div className="mt-[50px] flex flex-col gap-[30px]">
           {insights.map((insight, index) => (

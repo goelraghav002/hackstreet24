@@ -1,8 +1,16 @@
 'use client';
 
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 // eslint-disable-next-line no-unused-vars
-import { FaPhoneAlt, FaLinkedin, FaSquareFacebook, FaGithubSquare, FaInstagramSquare, FaYoutubeSquare } from 'react-icons/fa';
+import {
+  FaPhoneAlt,
+  FaLinkedin,
+  FaSquareFacebook,
+  FaGithubSquare,
+  FaInstagramSquare,
+  FaYoutubeSquare,
+} from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IoLocationSharp } from 'react-icons/io5';
 import { socials } from '../constants';
@@ -12,6 +20,17 @@ import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
 function Footer() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <motion.footer
       variants={footerVariants}
@@ -30,6 +49,12 @@ function Footer() {
           <img src='/headset.svg' alt='headset' className='w-[24px] h-[24px] object-contain' />
           <span className='font-normal text-[16px] text-white'>ENTER REALM</span>
         </button> */}
+          <div
+            className="apply-button"
+            data-hackathon-slug="hackstreet24"
+            data-button-theme="light"
+            style={{ height: '44px', width: '312px' }}
+          />
         </div>
 
         <div className="flex flex-col">
@@ -53,7 +78,7 @@ function Footer() {
                 <p>India</p>
               </div>
             </div>
-            
+
             <div className="font-bold text-[120%]  text-white opacity-50 contact">
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
@@ -75,7 +100,7 @@ function Footer() {
               <p>Find Us Here:</p>
               <div className="flex gap-4">
                 {socials.map((social) => (
-                // eslint-disable-next-line react/button-has-type
+                  // eslint-disable-next-line react/button-has-type
                   <button className="social-btn">
                     <a href={social.href} target="_main">
                       <img
