@@ -98,7 +98,7 @@ export const insights = [
 export const socials = [
   {
     name: 'telegram',
-    url: '/telegram.webp',
+    url: '/discord.svg',
     href: 'https://discord.gg/zKFdRQ4z9D',
   },
   {
