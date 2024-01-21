@@ -19,8 +19,8 @@ function Feedback() {
             Gold Partners
           </h4>
           <div className="sponsors" id="gsp">
-            <img className="sponsorsImages" id="dev" src="/devfolio_spon.webp" alt="" />
-            <img className="sponsorsImages" id="polygon" src="/polygon_spon.png" alt="" />
+            <img className="sponsorsImages" id="dev" src="/devfolio_spon.webp" alt="DEVFOLIO LOGO" />
+            <img className="sponsorsImages" id="polygon" src="/polygon_spon.png" alt="POLYGON LOGO" />
           </div>
         </div>
 
@@ -29,7 +29,7 @@ function Feedback() {
             Silver Partner
           </h4>
           <div className="sponsors">
-            <img className="sponsorsImages" id="replit" src="/ReplitImg-.png" alt="" />
+            <img className="sponsorsImages" id="replit" src="/ReplitImg-.png" alt="REPLIT LOGO" />
           </div>
         </div>
 
