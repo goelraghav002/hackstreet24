@@ -1,6 +1,8 @@
 'use client';
 
-import Link from 'next/link';
+// import Link from 'next/link';
+
+import {Link} from 'react-scroll'
 
 import React, { useEffect } from 'react';
 import './Navbar.css';
@@ -28,11 +30,11 @@ function Navbar() {
         <h2>HACKSTREET 2.0</h2>
       </div>
       <div className="NavBar-desc">
-        <Link href="/">HOME</Link>
-        <Link href="#about">ABOUT</Link>
-        <Link href="#prize">PRIZE</Link>
-        <Link href="#faq">FAQs</Link>
-        <Link href="#sponser">PARTNERS</Link>
+        <Link to="home">HOME</Link>
+        <Link to="about">ABOUT</Link>
+        <Link to="prize">PRIZE</Link>
+        <Link to="faq">FAQs</Link>
+        <Link to="sponser">PARTNERS</Link>
         <div
           className="apply-button"
           data-hackathon-slug="hackstreet24"
@@ -52,23 +54,23 @@ function Navbar() {
           <img src="/whiteCross.png" />
         </button>
 
-        <Link className="navParts" href="/">
+        <Link className="navParts" to="home">
           HOME
         </Link>
         <br />
-        <Link className="navParts" href="#about">
+        <Link className="navParts" to="about">
           ABOUT
         </Link>
         <br />
-        <Link className="navParts" href="#prize">
+        <Link className="navParts" to="prize">
           PRIZE
         </Link>
         <br />
-        <Link className="navParts" href="#faq">
+        <Link className="navParts" to="faq">
           FAQs
         </Link>
         <br />
-        <Link className="navParts" href="#sponser">
+        <Link className="navParts" to="sponser">
           PARTNERS
         </Link>
         <br />

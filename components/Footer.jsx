@@ -99,9 +99,9 @@ function Footer() {
             <div className="flex flex-col font-bold text-[24px] text-white gap-4">
               <p>Find Us Here:</p>
               <div className="flex gap-4">
-                {socials.map((social) => (
+                {socials.map((social, index) => (
                   // eslint-disable-next-line react/button-has-type
-                  <button className="social-btn">
+                  <button className="social-btn" key={index}>
                     <a href={social.href} target="_main">
                       <img
                         key={social.name}

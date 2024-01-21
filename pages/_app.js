@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Hackstreet 2.0</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/hackstreetlogo.ico" />
+        <link rel="shortcut icon" href="/logo_hack.png" type="image/x-icon" />
         <link rel="preconnect" href="https://stijndv.com" />
         <link
           rel="stylesheet"
