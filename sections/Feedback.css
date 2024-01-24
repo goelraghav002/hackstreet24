@@ -21,10 +21,15 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin: 7% auto;
-
+    margin: 60px auto;
+}
+#gsp {
+    margin: 0 auto;
 }
 
+h4{
+    font-size: 1.4em;
+}
 .sponsorsImages{
     width: 17%;
     margin-left:6vmin;

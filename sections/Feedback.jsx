@@ -15,7 +15,7 @@ function Feedback() {
 
       <div>
         <div className="sponsors-section">
-          <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal justify-center flex  lg:text-[50px] text-[35px] text-white">
             Gold Partners
           </h4>
           <div className="sponsors" id="gsp">
@@ -25,7 +25,7 @@ function Feedback() {
         </div>
 
         <div>
-          <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal justify-center flex  lg:text-[50px] text-[35px] text-white">
             Silver Partner
           </h4>
           <div className="sponsors">
@@ -34,48 +34,46 @@ function Feedback() {
         </div>
 
         <div>
-          <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal justify-center flex  lg:text-[50px] text-[35px] text-white">
             API Partner
           </h4>
           <div className="sponsors">
-            <img className="sponsorsImages" id="bee" src="/BeeceptorImg.png" alt="" />
+            <img className="sponsorsImages" id="bee" src="/BeeceptorImg.png" alt="BEECEPTOR LOGO" />
           </div>
         </div>
 
         <div>
-          <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal justify-center flex  lg:text-[50px] text-[35px] text-white">
             Interview Partners
           </h4>
           <div className="sponsors">
-            <img className="sponsorsImages" id="buddy" src="\InterviewBuddyImg.png" alt="" />
-            <img className="sponsorsImages" id="cake" src="\interviewcakeImg.png" alt="" />
+            <img className="sponsorsImages" id="buddy" src="\InterviewBuddyImg.png" alt="INTERVIEW LOGO" />
+            <img className="sponsorsImages" id="cake" src="\interviewcakeImg.png" alt="INTERVIEW LOGO" />
           </div>
         </div>
 
         <div>
-          <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal justify-center flex  lg:text-[50px] text-[35px] text-white">
             Certificate Partner
           </h4>
           <div className="sponsors">
-            <img className="sponsorsImages" id="certi" src="\givemycertificate_spon.png" alt="" />
+            <img className="sponsorsImages" id="certi" src="\givemycertificate_spon.png" alt="GIVE MY CERTIFICATE LOGO" />
           </div>
         </div>
 
         <div>
-          <h4 className="font-normal justify-center flex  lg:text-[42px] text-[26px] text-white">
+          <h4 className="font-normal justify-center flex  lg:text-[50px] text-[35px] text-white">
             In-Kind Partners
           </h4>
           <div className="sponsors inkind-sp">
-            <img className="sponsorsImages" id="alpha" src="\WolframAlphaImg.png" alt="" />
-            <img className="sponsorsImages" id="echo3d" src="\echo3DImg.png" alt="" />
-            <img className="sponsorsImages" id="xyz" src="\xyzImg.png" alt="" />
-            <img className="sponsorsImages" id="axure" src="\axureImg.svg" alt="" />
-            <img className="sponsorsImages" id="rosen" src="\rosenfeldImg.png" alt="" />
+            <img className="sponsorsImages" id="alpha" src="\WolframAlphaImg.png" alt="WOLFRAM ALPHA LOGO" />
+            <img className="sponsorsImages" id="echo3d" src="\echo3DImg.png" alt="ECHO 3D LOGO" />
+            <img className="sponsorsImages" id="xyz" src="\xyzImg.png" alt="XYZ LOGO" />
+            <img className="sponsorsImages" id="axure" src="\axureImg.svg" alt="AXURE LOGO" />
+            <img className="sponsorsImages" id="rosen" src="\rosenfeldImg.png" alt="ROSENFELD LOGO" />
           </div>
         </div>
-
       </div>
-
     </div>
   );
 }

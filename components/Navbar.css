@@ -23,7 +23,7 @@
 }
 
 .heading{
-    margin-left: 2vmin;
+    margin-left: 10px;
     min-width: 40vw;
     font-size: 1.7em;
     animation: slideRight 0.95s ease-out;
@@ -42,6 +42,7 @@
 .menuButton{
     width: 2.5em;
     display: none;
+    margin: 10px;
 }
 
 .nav{
@@ -55,7 +56,7 @@
     background-color: #00000094;
     color:aliceblue;
     position:fixed;
-    padding: 0 7.5%;
+    padding: 0 0px;
     overflow: hidden;
     font-weight: bold;
     z-index:1000;
@@ -96,7 +97,7 @@
         width: 15vmin;
     }
     .heading{
-        margin-left:1vmin;
+        margin-left:10px;
     }
     .menuButton {
         display: block;
@@ -116,7 +117,7 @@
         box-shadow: -3px 0px 9px rgb(185, 185, 185);
         border-radius: 14px 0 0 14px;
         padding-top: 2%;
-        padding-left: 1%;
+        padding-left: 0 ;
         color: aliceblue;
         background-image: linear-gradient(to right, #434343 0%, rgb(29, 29, 29) 100%);
         z-index: 9999;
@@ -126,7 +127,7 @@
     }
 
     .navParts {
-        margin: 20px;
+        margin: 0px;
     }
 
     @keyframes grow {
@@ -167,6 +168,7 @@
 @media (max-width: 1100px) {
     .nav {
         font-size:2.2vmin;
+        padding-left: 0px;
     }
     .NavBar-desc{
         width:75%;
@@ -178,7 +180,7 @@
         width: 15vmin;
     }
     .heading{
-        margin-left:1vmin;
+        margin-left:10px;
         font-size: 2.7em;
     }
   }
