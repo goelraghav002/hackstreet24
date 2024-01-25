@@ -38,7 +38,7 @@ function Footer() {
       whileInView="show"
       className={`${styles.paddings} py-8 relative`}
     >
-      <div className="footer-gradient" />
+      {/* <div className="footer-gradient" /> */}
 
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
@@ -79,7 +79,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="font-bold text-[120%]  text-white opacity-50 contact">
+            <div className="font-bold text-[100%]  text-white opacity-50 contact">
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
                 <p>Aryan Gupta:- +91-9116457772</p>
