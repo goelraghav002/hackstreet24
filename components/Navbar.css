@@ -117,7 +117,6 @@
         box-shadow: -3px 0px 9px rgb(185, 185, 185);
         border-radius: 14px 0 0 14px;
         padding-top: 2%;
-        padding-left: 0 ;
         color: aliceblue;
         background-image: linear-gradient(to right, #434343 0%, rgb(29, 29, 29) 100%);
         z-index: 9999;
@@ -126,20 +125,19 @@
         animation: grow 0.95s ease-in-out;
     }
 
-    .navParts {
-        margin: 0px;
-    }
-
     @keyframes grow {
         from {
-            transform: translate(100%, 0%);
+            transform: translate(100%, 100%);
         }
-
+        
         to {
-            transform: translate(0%, 0%);
+            transform: translate(-50%, 0%);
         }
     }
-
+    
+    .navParts {
+        margin-left: 0px;
+    }
     .crossImg {
         width: 29px;
         height: 29px;
@@ -182,5 +180,8 @@
     .heading{
         margin-left:10px;
         font-size: 2.7em;
+    }
+    .NavBar-description {
+        padding-left: 20px;
     }
   }

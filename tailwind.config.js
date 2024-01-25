@@ -16,6 +16,12 @@ module.exports = {
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
       },
+      screens: {
+      'sm': '400px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    },
     },
   },
   plugins: [],

@@ -8,7 +8,7 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 function Hero() {
   return (
-    <section className={`${styles.yPaddings} sm:pl-6 pl-6`} id="home">
+    <section className={`${styles.yPaddings} flex justify-center`} id="home">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -16,7 +16,7 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]">
+        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]" id="heroPage">
           <motion.h1
             variants={textVariant(1.1)}
             className={styles.heroHeading}
@@ -35,7 +35,9 @@ function Hero() {
         </div>
 
         <div className="frontPageBtn">
-          <button className="Btn font-normal">Apply with Devfolio</button>
+          <button className="Btn light flex content-between items-center justify-center">Apply with Devfolio
+        </button>
+
           <button className="Btn font-normal"><a href="https://discord.com/invite/zKFdRQ4z9D">Discord</a></button>
         </div>
 
