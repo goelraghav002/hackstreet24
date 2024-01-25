@@ -34,7 +34,7 @@ function GetStarted() {
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">REGISTRATIONS</h2>
-                <small>29TH JANUARY, 2023</small>
+                <small>29TH JANUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="left-arrow" />
               </div>
@@ -49,7 +49,7 @@ function GetStarted() {
               <img src="/two.jpg" />
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD STARTS</h2>
-                <small>3RD FEBRUARY, 2023</small>
+                <small>3RD FEBRUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="right-arrow" />
               </div>
@@ -64,7 +64,7 @@ function GetStarted() {
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">MID EVALUATION</h2>
-                <small>3RD FEBRUARY, 2023</small>
+                <small>3RD FEBRUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="left-arrow" />
               </div>
@@ -79,7 +79,7 @@ function GetStarted() {
               <img src="/two.jpg" />
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD ENDS</h2>
-                <small>4TH FEBRUARY, 2023</small>
+                <small>4TH FEBRUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="right-arrow" />
               </div>
@@ -94,7 +94,7 @@ function GetStarted() {
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">FINAL EVALUATION</h2>
-                <small>4TH FEBRUARY, 2023</small>
+                <small>4TH FEBRUARY, 2024</small>
                 <p>2PM onwards</p>
                 <span className="left-arrow" />
               </div>
