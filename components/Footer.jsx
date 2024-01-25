@@ -40,7 +40,7 @@ function Footer() {
     >
       {/* <div className="footer-gradient" /> */}
 
-      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
+      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 footerMain`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
             Enter the InCognito Realm
