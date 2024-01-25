@@ -32,9 +32,7 @@ export const startingFeatures = [
   'No need to beat around the bush, just stay on the gas and have fun',
 ];
 export const newFeatures = [
-  
-  
-  
+
 ];
 export const newFeatures2 = [
   {

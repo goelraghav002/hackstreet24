@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import "./timeline.css";
-import styles from "../styles";
-import { staggerContainer, fadeIn } from "../utils/motion";
-import { TitleText } from "../components";
+import { motion } from 'framer-motion';
+import './timeline.css';
+import styles from '../styles';
+import { staggerContainer, fadeIn } from '../utils/motion';
+import { TitleText } from '../components';
 // import { startingFeatures } from '../constants';
 
 function GetStarted() {
@@ -22,13 +22,13 @@ function GetStarted() {
       <motion.div
         initial="hidden"
         whileInView="show"
-        variants={fadeIn("down", "spring", 0.2, 1.5)}
+        variants={fadeIn('down', 'spring', 0.2, 1.5)}
       >
         <div className="timeline">
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn("right", "spring", 0.8, 1.5)}
+            variants={fadeIn('right', 'spring', 0.8, 1.5)}
           >
             <div className="container left">
               <img src="/stopwatch.jpeg" />
@@ -43,7 +43,7 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn("left", "spring", 0.9, 1.5)}
+            variants={fadeIn('left', 'spring', 0.9, 1.5)}
           >
             <div className="container right">
               <img src="/two.jpg" />
@@ -58,7 +58,7 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn("right", "spring", 1, 1.5)}
+            variants={fadeIn('right', 'spring', 1, 1.5)}
           >
             <div className="container left">
               <img src="/stopwatch.jpeg" />
@@ -73,7 +73,7 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn("left", "spring", 1.1, 1.5)}
+            variants={fadeIn('left', 'spring', 1.1, 1.5)}
           >
             <div className="container right">
               <img src="/two.jpg" />
@@ -88,7 +88,7 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn("right", "spring", 1.2, 1.5)}
+            variants={fadeIn('right', 'spring', 1.2, 1.5)}
           >
             <div className="container left">
               <img src="/stopwatch.jpeg" />
