@@ -32,9 +32,7 @@ export const startingFeatures = [
   'No need to beat around the bush, just stay on the gas and have fun',
 ];
 export const newFeatures = [
-  
-  
-  
+
 ];
 export const newFeatures2 = [
   {
@@ -79,13 +77,13 @@ export const insights = [
     imgUrl: '/image36.jpeg',
     title: ' How team formation works?',
     subtitle:
-      "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!",
+      "You can form a team with 2-4 members. If you don't have a team, there'll be plenty of opportunities for you to meet new hackers and form a team!",
   },
   {
     imgUrl: '/image34.jpeg',
     title: '   How to register myself in the hackathon??',
     subtitle:
-      'All you need is to fill our form above and join Discord, we will guide you through everything there',
+      'All you need is to fill your details above by just clicking on the Devfolio button and also join Discord, we will guide you through everything there',
   },
   {
     imgUrl: '/image31.jpeg',
