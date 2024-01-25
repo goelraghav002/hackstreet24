@@ -122,7 +122,7 @@
         z-index: 9999;
         font-size: 1.9em;
         line-height: 3em;
-        animation: grow 0.95s ease-in-out;
+        animation: slideLeft 0.95s ease-in-out;
     }
 
     @keyframes grow {
