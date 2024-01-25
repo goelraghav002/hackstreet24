@@ -36,7 +36,7 @@ function Hero() {
 
         <div className="frontPageBtn">
           <button className="Btn font-normal">Apply with Devfolio</button>
-          <button className="Btn font-normal">Discord</button>
+          <button className="Btn font-normal"><a href="https://discord.com/invite/zKFdRQ4z9D">Discord</a></button>
         </div>
 
         <motion.div
