@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import "./hero.css"
 
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
@@ -33,9 +34,14 @@ function Hero() {
           </motion.div>
         </div>
 
+        <div className="frontPageBtn">
+          <button className="Btn font-normal">Apply with Devfolio</button>
+          <button className="Btn font-normal"><a href="https://discord.com/invite/zKFdRQ4z9D">Discord</a></button>
+        </div>
+
         <motion.div
           variants={slideIn('right', 'tween', 0.1, 1.5)}
-          className="relative w-full md:-mt-[-20px] -mt-[-20px]"
+          className="relative w-full md:-mt-[-70px] -mt-[-20px]"
         >
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
           <img
