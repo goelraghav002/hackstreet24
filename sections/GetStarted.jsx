@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import './timeline.css';
-import styles from '../styles';
-import { staggerContainer, fadeIn } from '../utils/motion';
-import { TitleText } from '../components';
+import { motion } from "framer-motion";
+import "./timeline.css";
+import styles from "../styles";
+import { staggerContainer, fadeIn } from "../utils/motion";
+import { TitleText } from "../components";
 // import { startingFeatures } from '../constants';
 
 function GetStarted() {
@@ -22,19 +22,19 @@ function GetStarted() {
       <motion.div
         initial="hidden"
         whileInView="show"
-        variants={fadeIn('down', 'spring', 0.2, 1.5)}
+        variants={fadeIn("down", "spring", 0.2, 1.5)}
       >
         <div className="timeline">
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn('right', 'spring', 0.8, 1.5)}
+            variants={fadeIn("right", "spring", 0.8, 1.5)}
           >
             <div className="container left">
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">REGISTRATIONS</h2>
-                <small>29TH JANUARY, 2023</small>
+                <small>29TH JANUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="left-arrow" />
               </div>
@@ -43,13 +43,13 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn('left', 'spring', 0.9, 1.5)}
+            variants={fadeIn("left", "spring", 0.9, 1.5)}
           >
             <div className="container right">
               <img src="/two.jpg" />
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD STARTS</h2>
-                <small>3RD FEBRUARY, 2023</small>
+                <small>3RD FEBRUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="right-arrow" />
               </div>
@@ -58,13 +58,13 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn('right', 'spring', 1, 1.5)}
+            variants={fadeIn("right", "spring", 1, 1.5)}
           >
             <div className="container left">
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">MID EVALUATION</h2>
-                <small>3RD FEBRUARY, 2023</small>
+                <small>3RD FEBRUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="left-arrow" />
               </div>
@@ -73,13 +73,13 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn('left', 'spring', 1.1, 1.5)}
+            variants={fadeIn("left", "spring", 1.1, 1.5)}
           >
             <div className="container right">
               <img src="/two.jpg" />
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD ENDS</h2>
-                <small>4TH FEBRUARY, 2023</small>
+                <small>4TH FEBRUARY, 2024</small>
                 <p>11:00 AM onwards</p>
                 <span className="right-arrow" />
               </div>
@@ -88,13 +88,13 @@ function GetStarted() {
           <motion.div
             initial="hidden"
             whileInView="show"
-            variants={fadeIn('right', 'spring', 1.2, 1.5)}
+            variants={fadeIn("right", "spring", 1.2, 1.5)}
           >
             <div className="container left">
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">FINAL EVALUATION</h2>
-                <small>4TH FEBRUARY, 2023</small>
+                <small>4TH FEBRUARY, 2024</small>
                 <p>2PM onwards</p>
                 <span className="left-arrow" />
               </div>

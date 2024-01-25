@@ -53,7 +53,7 @@ function Footer() {
             className="apply-button"
             data-hackathon-slug="hackstreet24"
             data-button-theme="light"
-            style={{ height: '44px', width: '312px' }}
+            style={{ height: "44px", width: "312px" }}
           />
         </div>
 
@@ -82,11 +82,11 @@ function Footer() {
             <div className="font-bold text-[100%]  text-white opacity-50 contact">
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
-                <p>Aryan Gupta:- +91-9116457772</p>
+                <p>Aryesh Srivastava:- +91-9999453352</p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
-                <p>Ansh Mishra:- +91-9506424755</p>
+                <p>Raghav Goel:- +91-9050892902</p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <MdEmail />
