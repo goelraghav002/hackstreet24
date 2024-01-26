@@ -30,8 +30,7 @@ function Explore() {
         <TitleText
           title={(
             <>
-              Choose your own fate ‼<br className="md:block hidden" />
-              Chase down the Murderer🗡
+              THEMES🗡
             </>
           )}
           textStyles="text-center"
