@@ -40,7 +40,9 @@ function Footer() {
     >
       {/* <div className="footer-gradient" /> */}
 
-      <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8 footerMain`}>
+      <div
+        className={`${styles.innerWidth} mx-auto flex flex-col gap-8 footerMain`}
+      >
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
             Enter the InCognito Realm
@@ -82,11 +84,17 @@ function Footer() {
             <div className="font-bold text-[100%]  text-white opacity-50 contact">
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
-                <p>Aryesh Srivastava:- +91-9999453352</p>
+                <p className='text-[15px]'>
+                  Aryesh Srivastava:{' '}
+                  <a href="tel:+919999453352">+91 99994 53352</a>
+                </p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <FaPhoneAlt />
-                <p>Raghav Goel:- +91-9050892902</p>
+                <p className='text-[15px]'>
+                  Raghav Goel:{' '}
+                  <a href="tel:+919050892902">+91 90508 92902</a>
+                </p>
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <MdEmail />

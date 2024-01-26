@@ -4,7 +4,7 @@
 
 import { Link } from 'react-scroll';
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Navbar.css';
 
 function Navbar() {
@@ -12,17 +12,6 @@ function Navbar() {
   const handleNavClick = () => {
     setStatus(!status);
   };
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <div className="nav">
@@ -37,12 +26,7 @@ function Navbar() {
         <Link className="navParts" to="prize">PRIZE</Link>
         <Link className="navParts" to="faq">FAQs</Link>
         <Link className="navParts" to="sponser">PARTNERS</Link>
-        <div
-          className="apply-button"
-          data-hackathon-slug="hackstreet24"
-          data-button-theme="light"
-          style={{ height: '44px', width: '312px' }}
-        />
+
       </div>
       <button type="button" onClick={handleNavClick} className="menuButton">
         <img id="menuImg" src="/menuBtn.png" />
