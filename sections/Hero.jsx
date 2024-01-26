@@ -1,12 +1,24 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import "./hero.css"
+import './hero.css';
 
+import { useEffect } from 'react';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 function Hero() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section className={`${styles.yPaddings} flex justify-center`} id="home">
       <motion.div
@@ -16,7 +28,10 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]" id="heroPage">
+        <div
+          className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]"
+          id="heroPage"
+        >
           <motion.h1
             variants={textVariant(1.1)}
             className={styles.heroHeading}
@@ -35,10 +50,16 @@ function Hero() {
         </div>
 
         <div className="frontPageBtn">
-          <button className="Btn light flex content-between items-center justify-center">Apply with Devfolio
-        </button>
+          <div
+            className="apply-button"
+            data-hackathon-slug="hackstreet24"
+            data-button-theme="light"
+            style={{ height: '44px', width: '312px' }}
+          />
 
-          <button className="Btn font-normal"><a href="https://discord.com/invite/zKFdRQ4z9D">Discord</a></button>
+          <button className="Btn font-normal" type="button">
+            <a href="https://discord.com/invite/zKFdRQ4z9D">Discord</a>
+          </button>
         </div>
 
         <motion.div
