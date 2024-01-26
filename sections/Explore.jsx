@@ -26,17 +26,8 @@ function Explore() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-
-        <TitleText
-          title={(
-            <>
-              Choose your own fate ‼<br className="md:block hidden" />
-              Chase down the Murderer🗡
-            </>
-          )}
-          textStyles="text-center"
-        />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+        <TitleText title={<>🗡THEMES🗡</>} textStyles="text-center" />
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[100vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}

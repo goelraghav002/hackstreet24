@@ -193,8 +193,8 @@ small{
         left:31px;
     }
     .container{
-        width:53%;
-        padding:8px 5px;
+        width:70%;
+        padding:6px 5px;
     }
     .left{
         left:20%;
@@ -203,7 +203,7 @@ small{
         left:20%;
     }
     .text-box{
-        font-size:3vmin;
+        font-size:4.7vmin;
     }
     .container img{
         height:40px;
@@ -211,7 +211,7 @@ small{
         z-index:10;
         position: absolute;
         top:20px;
-        left:-60px;
+        left:-65px;
     }
     .left-arrow{
         height:0;

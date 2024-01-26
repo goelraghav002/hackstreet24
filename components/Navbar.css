@@ -1,11 +1,11 @@
 .NavBar-desc{
     display: flex;
-    width:45%;
-    justify-content: space-between;
+    width:32%;
+    justify-content: space;
     color:aliceblue;
     gap: 1.1em;
     align-items: center; 
-    animation: slideLeft 0.95s ease-out;
+    animation: slideLeft 0.80s ease-out;
 }
 @keyframes slideLeft {
     from {
@@ -104,7 +104,7 @@
     }
 
     .NavBar-description br{
-        line-height:30px;
+        line-height:10px;
     }
     .NavBar-description {
         position: fixed;
