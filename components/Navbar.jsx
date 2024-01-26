@@ -60,12 +60,6 @@ function Navbar() {
           PARTNERS
         </Link>
         <br />
-        <div
-          className="apply-button"
-          data-hackathon-slug="hackstreet24"
-          data-button-theme="light"
-          style={{ height: '44px', width: '312px' }}
-        />
       </div>
     </div>
   );
