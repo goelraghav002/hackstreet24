@@ -1,7 +1,7 @@
 .NavBar-desc{
     display: flex;
-    width:30%;
-    justify-content: space-between;
+    width:32%;
+    justify-content: space;
     color:aliceblue;
     gap: 1.1em;
     align-items: center; 
