@@ -48,7 +48,7 @@ function GetStarted() {
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD STARTS</h2>
                 <small>3RD FEBRUARY, 2024</small>
-                <p>11:00 AM onwards</p>
+                <p>2:00 PM onwards</p>
                 <span className="right-arrow" />
               </div>
             </div>
@@ -78,7 +78,7 @@ function GetStarted() {
               <div className="text-box">
                 <h2 className="heading1">HACKING PERIOD ENDS</h2>
                 <small>4TH FEBRUARY, 2024</small>
-                <p>11:00 AM onwards</p>
+                <p>2:00 PM onwards</p>
                 <span className="right-arrow" />
               </div>
             </div>
