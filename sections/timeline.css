@@ -47,7 +47,7 @@
     animation-delay: 2.2s;
 }
 .container img{
-    height:50%;
+    height:50px;
     border-radius: 50%;
     z-index:10;
     position: absolute;
