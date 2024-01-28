@@ -34,8 +34,6 @@ function GetStarted() {
               <img src="/stopwatch.jpeg" />
               <div className="text-box">
                 <h2 className="heading1">REGISTRATIONS</h2>
-                <small>29TH JANUARY, 2024</small>
-                <p>11:00 AM onwards</p>
                 <span className="left-arrow" />
               </div>
             </div>
@@ -65,7 +63,7 @@ function GetStarted() {
               <div className="text-box">
                 <h2 className="heading1">MID EVALUATION</h2>
                 <small>3RD FEBRUARY, 2024</small>
-                <p>11:00 AM onwards</p>
+                <p>9:00 PM onwards</p>
                 <span className="left-arrow" />
               </div>
             </div>
@@ -95,7 +93,7 @@ function GetStarted() {
               <div className="text-box">
                 <h2 className="heading1">FINAL EVALUATION</h2>
                 <small>4TH FEBRUARY, 2024</small>
-                <p>2PM onwards</p>
+                <p>3:00 PM onwards</p>
                 <span className="left-arrow" />
               </div>
             </div>
