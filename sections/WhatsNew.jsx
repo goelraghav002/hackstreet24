@@ -22,10 +22,11 @@ function WhatsNew() {
           className="flex-[0.75] flex justify-center flex-col"
         >
           <div className="w-[90vw]">
-          
-          <TitleText title="Rewards🏆" textStyles="text-center"/>
+            <TitleText title="Rewards🏆" textStyles="text-center" />
           </div>
-          
+          <div className="w-[90vw]">
+            <TitleText title="PRIZE POOL OF INR 50K" textStyles="text-center" />
+          </div>
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />
