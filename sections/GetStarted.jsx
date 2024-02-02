@@ -93,7 +93,7 @@ function GetStarted() {
               <div className="text-box">
                 <h2 className="heading1">PROJECT SUBMISSION</h2>
                 <small>4TH FEBRUARY, 2024</small>
-                <p>3:00 PM onwards</p>
+                <p>3:00 PM - 3:30 PM</p>
                 <span className="left-arrow" />
               </div>
             </div>
